@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INICIO HEADER*/
+
+header{
+    background-color: #918DF4;
+    padding: 8px 0;
+    font-size: 6px;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #EEEAFE;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+header .container .container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container img{
+    height: 13px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.phone img{
+    margin-right: 8px;
+}
+
+.addres{
+    display: flex;
+    align-items: center;
+}
+
+.addres img{
+    margin-right: 8px;
+}
+
+/*FINAL HEADER*/
+
+/*INICIO SECTION HOME 1*/
+
+section, p{
+    font-family: 'Roboto', sans-serif;
+}
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    
+}
+
+#home nav ul{
+    display: flex;
+    font-size: 16px;
+    padding: 16px 16px;
+}
+
+section nav li{
+    display: inline;
+    margin-left: 32px;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+li{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#home nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#home nav li a:hover{
+    color: #918DF4;
+}
+
+/*FINAL SECTION HOME 1*/
+
+/*INICIO SECTION HOME 2*/
+
+#home-home,
+#aulas,
+#prof,
+#planos{
+    padding-bottom: 48px;
+    border-bottom: 1px solid black;
+}
+
+#home-home .container img{
+    height: 400px;
+    border-radius: 12px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+/*FINAL SECTION HOME 2*/
+
+/*INICIO SECTION AULAS*/
+
+#aulas .container img{
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    margin: 7px 0;
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.musculacao, .zumba{
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+/*FINAL SECTION AULAS*/
+
+/*INICIO SECTION PROFESSORES*/
+
+#prof .container img{
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    margin: 7px 0;
+}
+
+.personal, .prof-zumba{
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+/*FINAL SECTION PROFESSORES*/
+
+/*INICIO SECTION PLANOS*/
+
+.precos{
+    display: flex;
+    margin-top: 24px;
+}
+
+#planos .container .precos h4{
+    font-size: 30px;
+    padding-top: 16px;
+}
+
+.mensal,
+.trimestral,
+.semestral,
+.anual {
+    height: 200px;
+    width: 200px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #CDBEF5;
+}
+
+.mensal,
+.trimestral,
+.semestral{
+    margin-right: 10px;
+}
+
+#planos .container .precos .mes{
+    margin-bottom: 8px;
+}
+
+#planos .container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #BCF5C3;
+}
+
+#planos .container a:hover{
+    background-color: #96F4BF;
+}
+
+/*FINAL SECTION PLANOS*/
+
+/*INICIO FOOTER*/
+
+footer{
+    background-color: #918DF4;
+}
+
+footer .container p{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+/*FINAL FOOTER*/
